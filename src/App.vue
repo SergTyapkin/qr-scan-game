@@ -68,7 +68,7 @@
 </style>
 
 <template>
-  <HeaderComponent class="header" />
+<!--  <HeaderComponent class="header" />-->
 
   <div class="wrapper">
     <router-view #default="{ Component }">
@@ -78,7 +78,7 @@
     </router-view>
   </div>
 
-  <FooterComponent class="footer" />
+<!--  <FooterComponent class="footer" />-->
 
   <Popups ref="popups" />
   <Modals ref="modals" />
