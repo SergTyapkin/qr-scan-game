@@ -63,7 +63,7 @@ export default {
 
   methods: {
     onScan(text: string) {
-      if (QRS[this.selectedBranch].includes(text)) {
+      if (QRS[this.selectedBranch].includes(text.toLowerCase())) {
         this.score += 1;
       } else {
         this.score -= 1;
